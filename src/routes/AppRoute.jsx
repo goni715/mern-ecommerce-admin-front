@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import LoginPage from "../pages/Auth/LoginPage";
 import ForgotPasswordPage from "../pages/Auth/ForgotPasswordPage";
 import ResetPasswordPage from "../pages/Auth/ResetPasswordPage";
@@ -40,7 +40,7 @@ const AppRoute = () => {
 
 
         <Fragment>
-           <BrowserRouter>
+           <HashRouter>
                <Routes>
                    <Route path="/" element={<LoginPage />} />
                    <Route path="/registration" element={<RegistrationPage />} />
@@ -77,7 +77,7 @@ const AppRoute = () => {
                    <Route path="/admin/update-coupon/:id" element={<UpdateCouponPage/>} />
                    <Route path="/admin/coupon-list" element={<CouponListPage/>} />
                </Routes>
-           </BrowserRouter>
+           </HashRouter>
             <FullscreenLoader/>
         </Fragment>
 
