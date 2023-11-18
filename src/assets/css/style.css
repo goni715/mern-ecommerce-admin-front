@@ -1,0 +1,279 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+/*
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}*/
+.ant-layout {
+    min-height: 100vh;
+}
+.ant-layout-sider {
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+}
+.ant-layout-sider-collapsed {
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+.sm-logo {
+    display: none;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+    display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+    display: none;
+}
+.logo {
+    background: linear-gradient(-135deg, #c850c0, #4158d0) !important;
+    margin: 0 !important;
+    height: 64px !important;
+}
+main {
+    height: 85vh;
+    overflow-y: scroll;
+    background-color: transparent !important;
+}
+main::-webkit-scrollbar {
+    width: 0px;
+}
+.ant-menu-title-content {
+    font-size: 16px;
+}
+.ant-layout-header h5 {
+    line-height: 20px;
+    font-size: 14px;
+}
+.ant-layout-header p {
+    line-height: 20px;
+    font-size: 13px;
+}
+.ant-layout-header div .badge {
+    top: 16px;
+    right: -6px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.ant-layout-sider-trigger {
+    display: none !important;
+}
+
+
+/* Dashboard Component*/
+.green {
+    color: #47ad24;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.red {
+    color: #e52e2e;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.quill {
+    background-color: white;
+}
+
+.form-control {
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif !important;
+}
+.title {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #212529;
+}
+.desc {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #828599;
+}
+
+
+
+/* Add Blog Component*/
+.quill{
+    background-color: white;
+}
+
+
+
+/* Add Product Component*/
+.ant-select-selector {
+    padding: 4px !important;
+}
+
+
+
+/*Upload Image Component*/
+.drag-area{
+    border: 2px dashed #fff;
+    height: 200px;
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #5256ad;
+}
+.drag-area.active{
+    border: 2px solid #fff !important;
+}
+.drag-area .icon{
+    font-size: 100px;
+    color: #fff !important;
+}
+.drag-area header{
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+}
+.drag-area span{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 15px 0;
+}
+.drag-area button{
+    padding: 10px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff !important;
+    color: #5256ad;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*Uload Progressbar */
+.wrapper2{
+    width: 430px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0 22px;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.05);
+}
+.wrapper2 header{
+    color: #6990F2;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper2 form{
+    height: 167px;
+    display: flex;
+    cursor: pointer;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #6990F2;
+}
+form :where(i, p){
+    color: #6990F2;
+}
+.uploadIcon{
+    font-size: 50px;
+}
+form p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+.uploadIcon, .uploadDesc{
+    color: #6990F2 !important;
+}
+
+
+
+.gap-80{
+    gap: 6rem !important;
+}
+
+
+
+
+/* Multi Select-box*/
+.Contain2 {
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0;
+    position:absolute;
+    display: none;
+}
+
+
+.card2 {
+    width: 400px !important;
+    height: 400px !important;
+    z-index: 100000 !important;
+}
+
+
+.button{
+    background-color: #60467e !important;
+}
+
+
+.loginWrapper{
+    background-image: linear-gradient(to bottom,#654a86,#534292) !important;
+    background-color: #534292 !important;
+}
+
+.main-layout-header{
+    background-color: #dde6f0;
+}
+
+
+.colors{
+    list-style-type: none;
+}
+
+.colors li {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
